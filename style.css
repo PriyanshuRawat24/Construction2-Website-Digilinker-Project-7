@@ -1777,9 +1777,14 @@ ul {
     color: white;
     padding: 40px;
   }
-
   .carousel-4 {
     padding: 0px 0px 64px;
+  }
+  .carousel-inner {
+    padding: 25px;
+  }
+  .cfs-carousel-inner {
+    padding: 0px;
   }
   .carousel-inner p {
     margin-top: 0px;
@@ -1899,77 +1904,6 @@ ul {
     background-color: orange;
     padding: 20px;
   }
-
-  /* why-choose-us */
-
-  .why-choose-us-text-box h2 {
-    font-weight: 300;
-    font-size: 30px;
-    text-transform: capitalize;
-  }
-
-  /* our-team */
-  
-  .our-team-image-box {
-    text-align: center;
-  }
-
-  /* our-blog */
-
-  .our-blog-heading-box h2 {
-    text-align: center;
-    text-transform: capitalize;
-    font-size: 20px;
-    font-weight: 300;
-  }
-  .blog-img-box img {
-    width: 100%;
-  }
-
-  /* contact */
-
-  .header h4 {
-    font-size: 34px;
-    font-weight: 300;
-    margin-top: 21px;
-  }
-
-  .header p {
-    margin-top: 21px;
-  }
-
-  /* about-page */
-
-  .who-we-are-icon-box {
-    display: flex;
-    margin-top: 30px;
-  }
-
-  .about-bg-image-box img{
-    margin-top: 30px;
-  }
-  .info-box {
-    margin-top: -27px;
-    padding: 20px 16px 35px 21px;
-    height: 50%;
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
-  }
-  .info-para-box {
-    padding: 0px 16px;
-  }
-
-  .info-img-box img {
-    width: 25%;
-  }
-  }
-  .our-working-button-box {
-    display: flex;
-    justify-content: center;
-    /* margin-top: -35px; */
-  }
-  .icon-logo i {
-    margin-top: 0px;
-  }
   .mfp-img-mobile .mfp-image-holder {
     padding-left: 0;
     padding-right: 0;
@@ -2042,6 +1976,101 @@ ul {
     .mfp-img {
       cursor: pointer;
     }
+  }
+
+  /* why-choose-us */
+
+  .why-choose-us-text-box h2 {
+    font-weight: 300;
+    font-size: 30px;
+    text-transform: capitalize;
+  }
+
+  /* our-team */
+  
+  .our-team-image-box {
+    text-align: center;
+  }
+
+  
+  /* our-blog */
+
+  .our-blog-heading-box h2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .blog-img-box img {
+    width: 100%;
+  }
+
+  /* about-page */
+
+  .who-we-are-icon-box {
+    display: flex;
+    margin-top: 30px;
+  }
+
+  /* second-section comprehension*/
+
+  .about-bg-image-box img{
+    margin-top: 30px;
+  }
+
+  .about-bg-text-box h1 {
+    color: white;
+    text-transform: capitalize;
+    text-align: left;
+    font-weight: 300;
+    font-size: 25px;
+  }
+  .about-bg-text-box p {
+    color: white;
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-size: 10px;
+  }
+
+
+  /* service-page */
+
+  /* our-working */
+  
+  .our-working-button-box {
+    display: flex;
+    justify-content: center;
+    margin-top: -6px;
+  }
+  .our-working-heading-box h4 {
+    font-size: 30px;
+    text-transform: capitalize;
+  }
+
+  /* contact form */
+
+  .info-box {
+    margin-top: -27px;
+    padding: 20px 16px 35px 21px;
+    height: 50%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  }
+  .info-para-box {
+    padding: 0px 16px;
+  }
+
+  .info-img-box img {
+    width: 25%;
+  }
+  .header h4 {
+    font-size: 34px;
+    font-weight: 300;
+    margin-top: 21px;
+  }
+
+  .header p {
+    margin-top: 21px;
+  }
   }
  @media only screen and (max-width: 600px) { 
 
